@@ -7,7 +7,9 @@ main{
     margin: 0 auto;
 }
 
-
+ul li{
+    list-style: none;
+}
 
 /*nav section */
 nav{
@@ -271,4 +273,48 @@ line-height: 30px; /* 166.667% */
     right: 71%;
 }
 
-/* game cart section *?
+/* game cart section */
+
+
+.games_container{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.games_container  .games_card{
+    display: flex;
+    border: 1px solid aliceblue;
+    border-radius: 50px;
+    text-align: center;
+    background-color: aliceblue;
+    justify-content: space-evenly;
+    padding: 13px 47px 6px 6px;
+    align-items: center;
+   
+}
+.games_container .games_card img {
+    width: 60%;
+   
+
+}
+ .games_card:hover{
+    color: #FF42A5;
+    border: 1px solid #FF42A5;
+ }
+.games_box_one{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    text-align: center;
+}
+.games_box_two{
+    margin-top: 50px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+  .cart_name h3{
+    font-size: 15px;
+   text-align: center;
+   align-items: center;
+  }
