@@ -1,8 +1,11 @@
 
 a{
     display: inline-block;
+    text-decoration: none;
 }
-
+main{
+    margin: 0 auto;
+}
 
 
 
@@ -167,3 +170,105 @@ margin: 15px 0px 1px 218px;
     width: 100%;
     height: 615px;
 }
+
+
+/* onliner card section */
+
+.container_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.onliner_card img{
+    width: 70%;
+}
+.Onliner_title h2{
+
+    color: #0B0223;
+    text-align: center;
+font-family: Work Sans;
+font-size: 42px;
+font-weight: 700;
+margin-top: 61px;
+}
+.Onliner_title h2 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.Onliner_title p{
+margin-bottom: 70px;
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+
+}
+
+.bottom_title{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 11px;
+font-weight: 500;
+
+}
+
+
+/* play section */
+.play_container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 160px;
+}
+
+.play_container  .play_detail {
+    text-align: right;
+    width: 470px;
+    padding-top: 115px;
+}
+
+.play_container  .play_detail h2{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+
+.play_container  .play_detail h2 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.play_container  .play_detail p{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+
+.play_container .img_box{
+
+    position: relative;
+}
+.play_container .img_box  .overlay_img{
+    position: absolute;
+    top: 55%;
+    right: 71%;
+}
+
+/* game cart section *?
