@@ -61,6 +61,12 @@ font-weight: 800;
     list-style: none;
 
 }
+.nav_list ul li:hover a{
+    color: #FF42A5;
+}
+.nav_list ul li a{
+    color: #3C354F;
+}
 .nav_list ul li{
     padding: 20px;
     color: #3C354F;

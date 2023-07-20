@@ -16,7 +16,7 @@
     }
     /* banner section */
     .baner_container {
-        
+        justify-content: center;
         flex-wrap: wrap;
         align-content: center;
         flex-direction: row;
