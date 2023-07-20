@@ -1,0 +1,176 @@
+@media only screen and (max-width: 576px) {
+    nav{
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    align-content: center;
+    margin-top: 51px;
+    padding-bottom: 20px;
+    }
+    .nav_list ul {
+       
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* banner section */
+    .baner_container {
+        
+        flex-wrap: wrap;
+        align-content: center;
+        flex-direction: row;
+        margin-top: 134px;
+    }
+    .banner_sticker img {
+       
+        width: 100%;
+    }
+    .banner_details {
+        width: auto; 
+         height: auto; 
+         
+    }
+    .banner_bg img {
+        height: auto;
+        width: 320px;
+    }
+    .items_note {
+       padding-left: 47px;
+        margin: 0 auto; 
+    }
+    .items_note p {
+        margin: 0 auto;
+        text-align: center;
+}
+
+.online_main_section {
+    margin-top: 217px;
+  
+}
+.Onliner_title h2 {
+    font-size: 27px;
+}
+
+
+.Onliner_title p {
+    margin-bottom: 28px;
+    font-size: 13px;
+    padding-top: 9px;
+   
+}
+.container_box {
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+    flex-wrap: wrap;
+}
+.card_box{
+    padding-top: 20px;
+    padding-bottom: 12px
+}
+
+
+/* play container */
+.play_container {
+    margin-top: -70px;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+  .play_container .img_box img{
+   
+     height: 313px;
+  }
+  .play_container .play_detail h2 {
+    font-size: 40px;
+    
+    line-height: 46px;
+}
+
+.play_container .play_detail {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: center;
+}
+.play_container .play_detail p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+
+.play_container .img_box  .overlay_img img{
+   
+    width: auto;
+    height: 143px;
+}
+
+.play_container .img_box .overlay_img {
+    top: 61%;
+    right: 73%;
+}
+
+.games_box_one {
+    display: grid;
+    text-align: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+.games_box_two {
+    display: grid;
+    text-align: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.games_container .games_card {
+    padding: 0;
+}
+.footer_second_box {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.foot_title ul {
+    justify-content: center;
+    text-align: center;
+    gap: 61px;
+    
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.footer_tearms_title ul {
+   
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+}

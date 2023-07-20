@@ -1,4 +1,10 @@
 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 a{
     display: inline-block;
     text-decoration: none;
@@ -17,6 +23,7 @@ nav{
     justify-content: space-around;
     box-shadow: -6px 34px 27px -48px #888888;
     border-bottom: 1px solid whitesmoke;
+    
 }
 nav h1 span{
     color: #FF42A5;
@@ -175,7 +182,11 @@ margin: 15px 0px 1px 218px;
 
 
 /* onliner card section */
+.online_main_section{
 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .container_box{
     display: flex;
     align-items: center;
@@ -278,6 +289,8 @@ line-height: 30px; /* 166.667% */
 
 .games_container{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .games_container  .games_card{
@@ -318,3 +331,85 @@ line-height: 30px; /* 166.667% */
    text-align: center;
    align-items: center;
   }
+
+  /* footer */
+
+  .footer_main{
+      text-align: center;
+      background-color: #0B0223;
+     width: auto;
+     height: 600px;
+  }
+  .foter_head{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .foot_title ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+  }
+  .foot_icon ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    
+  }
+  .foot_icon ul a{
+    color: white;
+    font-size: 32px;
+  }
+  .footer_second_box{
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 50px;
+    margin: auto;
+    display: flex;
+    height: 600px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    color: white;
+  }
+
+.foter_head h2{
+
+    text-align: center;
+    font-family: work sans;
+    font-size: 33px;
+    
+    font-weight: 800;
+}
+
+.foter_head h2 span{
+    color: #FF42A5;
+}
+.footer_tearms_title ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.footer_tearms_title ul li{
+
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 500;
+
+}
+
+.footer_tearms_title p{
+  padding-top: 30px;
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
